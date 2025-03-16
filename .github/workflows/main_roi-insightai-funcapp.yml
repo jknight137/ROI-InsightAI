@@ -1,5 +1,4 @@
 name: Build and deploy Python Azure Functions - roi-insightai-funcapp
-name: Build and deploy Python Azure Functions - roi-insightai-funcapp
 
 on:
   push:
@@ -13,11 +12,8 @@ env:
 
 jobs:
   build-and-deploy:
-  build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      id-token: write
       contents: read
       id-token: write
 
